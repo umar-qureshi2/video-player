@@ -23,6 +23,7 @@ namespace Video_Player
             //Rectangle bb = new Rectangle(Bounds.X, Bounds.Y, Bounds.Width, Bounds.Height + 45);
             axWindowsMediaPlayer1.Bounds = Bounds;
             panel1.Bounds = Bounds;
+			
             axWindowsMediaPlayer1.uiMode = "none";
             //axWindowsMediaPlayer1.Size = new Size(bb.Height, bb.Width);
 
